@@ -1,0 +1,27 @@
+package v;
+
+import java.util.Scanner;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Ënter the principle amount P:   ");
+		float principle =scanner.nextFloat();
+		
+		System.out.println("Enter the time in years  T:   ");
+		float time =scanner.nextFloat();
+		System.out.println("Ënter the rate in percentage R:   ");
+		float rate =scanner.nextFloat();
+		float SimpleInterest=(principle *time* rate)/100;
+		System.out.println("Simple interest is:"  + SimpleInterest);
+//		Scanner.close();
+	}
+		
+		
+		
+
+	}
+
+
